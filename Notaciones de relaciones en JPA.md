@@ -45,8 +45,8 @@ Una entidad contiene una colección de otras entidades relacionadas.
 
 **Ejemplo en clase Category:**
 
-```java
-Copy
+``` java
+
 @Entity
 public class Category {
     @Id
