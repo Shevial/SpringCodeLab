@@ -1,8 +1,8 @@
-### Create Project
+### 1. Create Project
 
 - **Generators:** Place in the project folder
 
-### Add dependencies:
+### 2. Add dependencies:
 
 (for example for a tymeleaf with postgreSQL project)
 
@@ -13,7 +13,7 @@
 - **H2 Database** (SQL)
 - **PostgreSQL Driver** (SQL)
 
-### MVC
+### 3. MVC
 
 - **Create packages** (in `com.example`)
     - `model`
@@ -32,7 +32,7 @@
     - **BookController**
         - To transfer data from the database to the view
 
-### CONNECT TO DATABASE
+### 4. CONNECT TO DATABASE
 
 - Add dependencies in `pom.xml`
 - Configure database in `application.properties`
@@ -40,21 +40,21 @@
   **Simple example for connection**
 
   ```
-# Application name in Spring Boot
-spring.application.name=TrackEquip
+spring.application.name=TrackEquip #Application name in Spring Boot
 
-# PostgreSQL configuration
+
+#PostgreSQL configuration
 spring.datasource.url=jdbc:postgresql://localhost:5432/trackequip_db  # Database URL
 spring.datasource.username=postgres  # Username
 spring.datasource.password=celta  # Password
 spring.datasource.driverClassName=org.postgresql.Driver  # JDBC Driver
 
-# JPA/Hibernate configuration
+#JPA/Hibernate configuration
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect  # SQL dialect
 spring.jpa.hibernate.ddl-auto=create  # Creates tables on each run
 spring.jpa.show-sql=true  # Displays queries in the console
 
-# H2 console for testing (even though we use PostgreSQL)
+#H2 console for testing (even though we use PostgreSQL)
 spring.h2.console.enabled=true  
 
   ```
