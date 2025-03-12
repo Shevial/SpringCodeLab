@@ -111,7 +111,7 @@ Relación bidireccional donde ambas entidades pueden tener múltiples asociacion
 
 ### Ejemplo en clases Book y Author:
 
-´´´ java
+``` java
 
 @Entity
 public class Book {
@@ -135,7 +135,7 @@ public class Author {
     @ManyToMany(mappedBy = "authors")
     private List<Book> books = new ArrayList<>();
 }
-´´´
+```
 
 #### Explicación:
 
@@ -154,7 +154,7 @@ Especifica la columna de unión para relaciones.
 
 Uso típico:
 
-´´´ java
+``` java
 
 @ManyToOne
 @JoinColumn(
@@ -163,7 +163,7 @@ Uso típico:
     nullable = false
 )
 private Publisher publisher;
-´´´
+```
 
 #### Explicación:
 
