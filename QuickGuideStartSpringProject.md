@@ -39,7 +39,7 @@
 
   **Simple example for connection**
 
-´´´spring.application.name=TrackEquip #Application name in Spring Boot
+´´´ spring.application.name=TrackEquip #Application name in Spring Boot
 
 
 #PostgreSQL configuration
