@@ -35,9 +35,7 @@ public class Book {
 
 **"One"** se refiere a la categoría
 
-Cada libro pertenece a UNA categoría
-
-Muchos libros pueden compartir la misma categoría
+Cada libro pertenece a UNA categoría y muchos libros pueden compartir la misma categoría
 
 ---
 
