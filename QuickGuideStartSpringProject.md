@@ -39,8 +39,7 @@
 
   **Simple example for connection**
 
-  ```
-spring.application.name=TrackEquip #Application name in Spring Boot
+´´´spring.application.name=TrackEquip #Application name in Spring Boot
 
 
 #PostgreSQL configuration
@@ -57,6 +56,6 @@ spring.jpa.show-sql=true  # Displays queries in the console
 #H2 console for testing (even though we use PostgreSQL)
 spring.h2.console.enabled=true  
 
-  ```
+´´´
 
   ### Create classes ...
