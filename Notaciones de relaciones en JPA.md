@@ -74,8 +74,8 @@ Relación exclusiva 1:1 entre dos entidades.
 
 #### Ejemplo en clases Book y BookDetail:
 
-´´´ java
-Copy
+``` java
+
 @Entity
 public class Book {
     @Id
@@ -94,7 +94,7 @@ public class BookDetail {
     private Integer pages;
     private String summary;
 }
-´´´ 
+``` 
 
 #### Explicación:
 
